@@ -1,5 +1,9 @@
 # Active-Directory-Infrastructure-Preparation
 
+<h2>Discription </h2>
+
+In this project we will lay the ground work or infrastructure foundation for the next two projects which will allow us to use Active Directory.
+
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Computer)
