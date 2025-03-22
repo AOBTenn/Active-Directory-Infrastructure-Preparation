@@ -1,4 +1,4 @@
-# Active-Directory-Installation-and-Infrastructure-Preparation
+# Active-Directory-Infrastructure-Preparation
 
 <h2>Environments and Technologies Used</h2>
 
@@ -8,7 +8,9 @@
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
-- Windows Server 2022  "Azure Edition"
+- Windows Server 2022 Azure Edition
+
+<h2>Project Steps</h2>
  
 1. Create Resource Group
 
