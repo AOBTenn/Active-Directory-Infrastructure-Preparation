@@ -35,7 +35,9 @@
 11. Ping Dc-1 from client-1
     - Client-1 -> Search bar -> Type "Powereshell" -> Run -> Type "ping paste/enter Dc-1 public Ip address" -> Enter
    
-If the ping succeds there will be a reply and timeout, if it didn't them a
+If the ping succeds there will be a reply and timeout. If the ping didn't go through them a reply and "Destination host   Unreactable," this means that the Domain Controller's Windows Firewall is still running.
+
+12. 
   
    
    
