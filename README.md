@@ -1,5 +1,15 @@
 # Active-Directory-Installation-and-Infrastructure-Preparation
 
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines/Computer)
+- Remote Desktop
+
+<h2>Operating Systems Used </h2>
+
+- Windows 10</b> (21H2)
+- Windows Server 2022  "Azure Edition"
+ 
 1. Create Resource Group
 
 Create -> Select Resource Group -> enter Name -> select region -> review and Create
@@ -10,13 +20,11 @@ Create -> Put in Resource Group (previously created) -> Enter Vnet Name -> Selec
 
 5. Create first Virtual Machine (Vm) Domain Controooller
 
-Create -> Put in Resource Group (previously created) -> Enter (Vm) Name "Domain Controller" -> select region (same as before) -> select Image: Windows Server 2022 "Azure Edition" -> *Note* Size: Standard, 2vcpus, 8 gib memory -> Username/Password -> check "License" -> Next to Disk -> Next to 
-Networking -> Select VNet (previously created) -> Review and Create -> Create
+Create -> Put in Resource Group (previously created) -> Enter (Vm) Name "Domain Controller" -> select region (same as before) -> select Image: Windows Server 2022 "Azure Edition" -> *Note* Size: Standard, 2vcpus, 8 gib memory -> Username/Password -> check "License" -> Next to Disk -> Next to Networking -> Select VNet (previously created) -> Review and Create -> Create
 
 7. Create Second Virtual Machine (Vm) Client-1
 
-Create -> Put in Resource Group (previously created) -> Enter (Vm) Name "Client-1" -> select region (same as before) -> select Image: Windows 10 Pro version 22H2 -> *Note* Size: Standard, 2vcpus, 8 gib memory -> Username/Password -> check "License" -> Next to Disk -> Next to Networking
--> Select VNet (previously created) -> Review and Create -> Create
+Create -> Put in Resource Group (previously created) -> Enter (Vm) Name "Client-1" -> select region (same as before) -> select Image: Windows 10 Pro version 22H2 -> *Note* Size: Standard, 2vcpus, 8 gib memory -> Username/Password -> check "License" -> Next to Disk -> Next to Networking-> Select VNet (previously created) -> Review and Create -> Create
 
 9. Modify Dc-1 Ip settings
 
