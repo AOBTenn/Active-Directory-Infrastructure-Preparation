@@ -37,7 +37,12 @@
    
 If the ping succeds there will be a reply and timeout. If the ping didn't go through them a reply and "Destination host   Unreactable," this means that the Domain Controller's Windows Firewall is still running.
 
-12. 
+12. Check client-1 Ip address Changed
+    - Client-1 -> Powereshell  -> Type "ipconfig /all" -> Enter
+
+The data results will disply Dc-1's Private Ip address for Client-1's Private Ip address.
+
+Congratulations onSuccessfully setting up the  infrastructure for the cnotinuing labs to Deploy and use Active Directory.
   
    
    
