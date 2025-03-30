@@ -57,13 +57,24 @@ Create -> Put in Resource Group (previously created) -> Enter (Vm) Name "Client-
 
 Go to Vm in Azure -> Dc-1 -> Networking -> Network settings -> Virtual Nic Card -> "ipconfig" -> Choose Static -> Save
   
+![image](https://github.com/user-attachments/assets/40f617e2-2ca2-4eba-9842-d9a044585f44)
+![image](https://github.com/user-attachments/assets/3fc975dc-7619-490e-a7f4-79f5799d21fd)
+![image](https://github.com/user-attachments/assets/ba27c126-f866-453d-994b-812efc7f49f6)
+![image](https://github.com/user-attachments/assets/db3a0089-d3cd-41f6-97a7-abc48f6c91fa)
+
 6. Login to Dc-1
-  
+
 Go to Vm in Azure -> Dc-1 -> Public Ip Address -> Remote Desktop -> Enter Username/Password
-  
+
+![image](https://github.com/user-attachments/assets/ae460eb6-42f8-49fa-b969-a4cba01dd50d)
+![image](https://github.com/user-attachments/assets/3720286a-d340-48b3-822f-7c4e70563ddb)
+
 7. Modify Dc-1 Firewall
   
 Rt click Start -> Run -> Type "wf.msc" -> Enter -> Windows Defender Firewall Properties -> Public Profile tab -> Firewall State Switch to "Off" -> Private Profile tab -> Firewall State Switch to "Off" -> Domain Profile tab -> Firewall State Switch to "Off" -> Apply -> Ok
+
+![image](https://github.com/user-attachments/assets/d15c816a-a932-48bb-9372-092fc85ecd57)
+![image](https://github.com/user-attachments/assets/4591df7c-2aff-4c10-ae7e-e63fb68d3d42)
 
 8. Modify Client-1 Ip settings (Change to Dc-1 private Ip address)
 
