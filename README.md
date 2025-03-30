@@ -40,14 +40,18 @@ Create -> Put in Resource Group (previously created) -> Enter (Vm) Name "Domain 
 ![image](https://github.com/user-attachments/assets/2a35ed8e-6a20-4c96-ae27-b66adc62011d)
 ![image](https://github.com/user-attachments/assets/08a4a036-29c7-481b-adf0-4fd73865bea3)
 ![image](https://github.com/user-attachments/assets/165d994c-cbc5-4de7-9f3f-d68ff45cc1a3)
-![image](https://github.com/user-attachments/assets/abd135ec-03f8-4803-824a-6c4be8ac801d)
 ![image](https://github.com/user-attachments/assets/cab15a85-a856-494d-bb3a-bf23712b3193)
+![image](https://github.com/user-attachments/assets/abd135ec-03f8-4803-824a-6c4be8ac801d)
 
 4. Create Second Virtual Machine (Vm) Client-1
 
 Create -> Put in Resource Group (previously created) -> Enter (Vm) Name "Client-1" -> Select Region (same as before) -> Select Image: Windows 10 Pro Version 22H2 -> *Note* Size: Standard, 2vcpus, 8 gib memory -> Username/Password -> Check "License" -> Next to Disk -> Next to Networking-> Select VNet (previously created) -> Review and Create -> Create
 
 ![image](https://github.com/user-attachments/assets/311db171-7a28-4cb6-ad1e-aad2e1057df5)
+![image](https://github.com/user-attachments/assets/86ed0f6b-1dbb-45c3-bbd7-79ae1b56e1ed)
+![image](https://github.com/user-attachments/assets/a3f2ff21-74f5-4700-b8c1-8cd9398de2d8)
+![image](https://github.com/user-attachments/assets/1850f06e-66a6-4b9a-920b-dbd7ffa03358)
+![image](https://github.com/user-attachments/assets/aeffdf03-76e2-42a8-9e69-03314a476a40)
 
 5. Modify Dc-1 Ip Settings
 
