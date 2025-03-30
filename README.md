@@ -81,24 +81,42 @@ Rt click Start -> Run -> Type "wf.msc" -> Enter -> Windows Defender Firewall Pro
 8. Modify Client-1 Ip settings (Change to Dc-1 private Ip address)
 
 Go to Vm in Azure -> Dc-1 -> Copy Private Ip Address -> Go to Vm in Azure -> Client-1 -> Networking -> Network settings -> Virtual Nic Card -> DNS Server -> Select Custom -> Paste/Enter Dc-1 Privet Ip Address -> Save
-  
+
+![image](https://github.com/user-attachments/assets/ae460eb6-42f8-49fa-b969-a4cba01dd50d)
+![image](https://github.com/user-attachments/assets/b548e4a4-ff1b-4f34-bb54-22089589e042)
+![image](https://github.com/user-attachments/assets/0c325c60-f0d3-4d61-a508-aeff9be92a35)
+![image](https://github.com/user-attachments/assets/9aa3d6bf-c83c-474a-b1fd-75f8c55246d9)
+
 9. Reset Client-1
 
 Go to Vm in Azure -> Client-1 -> Restart
 
+![image](https://github.com/user-attachments/assets/ae460eb6-42f8-49fa-b969-a4cba01dd50d)
+
 10. Login to client-1
 
 Go to Vm in Azure -> Client-1 -> Public Ip address -> Remote Desktop -> Enter Username/Password
-   
+
+![image](https://github.com/user-attachments/assets/ae460eb6-42f8-49fa-b969-a4cba01dd50d)
+![image](https://github.com/user-attachments/assets/c4b37281-5fa0-432d-a2a7-9e8959b905d1)
+![image](https://github.com/user-attachments/assets/beb3e8be-a006-45ac-9223-3c87f4e6aa58)
+
 11. Ping Dc-1 from client-1
 
 Client-1 -> Search bar -> Type "Powereshell" -> Run -> Type "ping paste/enter Dc-1 public Ip address" -> Enter
-   
+
+![image](https://github.com/user-attachments/assets/ea583914-513f-47a9-9d4e-ac4daf53cd24)
+![image](https://github.com/user-attachments/assets/c5856867-8b76-4377-9821-4780e53c71b6)
+![image](https://github.com/user-attachments/assets/464644b8-810d-44f4-bee3-43dcc8aae5e3)
+![image](https://github.com/user-attachments/assets/fa3df5bc-af22-4b7e-ba9a-a8563fc8d09e)
+
 If the ping succeds there will be a reply and timeout. If the ping didn't go through them a reply and "Destination host Unreactable" is displayed. This means that the Domain Controller's Windows Firewall is still running.
 
 12. Check client-1 Ip Address Changed
 
 Client-1 -> Powereshell -> Type "ipconfig /all" -> Enter
+
+![image](https://github.com/user-attachments/assets/e72de138-555c-4ba5-9d3f-5fb3f18ad40f)
 
 The data results will disply Dc-1's Private Ip address for Client-1's Private Ip address.
 
