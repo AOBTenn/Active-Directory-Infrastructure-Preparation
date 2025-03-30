@@ -75,6 +75,8 @@ Rt click Start -> Run -> Type "wf.msc" -> Enter -> Windows Defender Firewall Pro
 
 ![image](https://github.com/user-attachments/assets/d15c816a-a932-48bb-9372-092fc85ecd57)
 ![image](https://github.com/user-attachments/assets/4591df7c-2aff-4c10-ae7e-e63fb68d3d42)
+![image](https://github.com/user-attachments/assets/7a51885b-c262-479a-a628-17b962bc118f)
+![image](https://github.com/user-attachments/assets/f4b5cfa8-175a-48aa-bfbc-a73e4d3fa106)
 
 8. Modify Client-1 Ip settings (Change to Dc-1 private Ip address)
 
