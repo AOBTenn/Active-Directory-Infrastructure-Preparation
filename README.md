@@ -30,13 +30,24 @@ Create -> Select Resource Group -> Enter Name -> Select Region -> Review and Cre
 
 Create -> Put in Resource Group (previously created) -> Enter Vnet Name -> Select Region (same as Resource Group) -> Review and Create
 
-3. Create first Virtual Machine (Vm) Domain Controooller
+![image](https://github.com/user-attachments/assets/90ef332b-2f4a-4b4d-87f2-cffd371d5f70)
+![image](https://github.com/user-attachments/assets/56d133ca-eb8e-4a8a-a6b8-2fbe271aa1d2)
+
+3. Create first Virtual Machine (Vm) Domain Controller
 
 Create -> Put in Resource Group (previously created) -> Enter (Vm) Name "Domain Controller" -> Select Region (same as before) -> Select Image: Windows Server 2022 "Azure Edition" -> *Note* Size: Standard, 2vcpus, 8 gib memory -> Username/Password -> Check "License" -> Next to Disk -> Next to Networking -> Select VNet (previously created) -> Review and Create -> Create
+
+![image](https://github.com/user-attachments/assets/2a35ed8e-6a20-4c96-ae27-b66adc62011d)
+![image](https://github.com/user-attachments/assets/08a4a036-29c7-481b-adf0-4fd73865bea3)
+![image](https://github.com/user-attachments/assets/165d994c-cbc5-4de7-9f3f-d68ff45cc1a3)
+![image](https://github.com/user-attachments/assets/abd135ec-03f8-4803-824a-6c4be8ac801d)
+![image](https://github.com/user-attachments/assets/cab15a85-a856-494d-bb3a-bf23712b3193)
 
 4. Create Second Virtual Machine (Vm) Client-1
 
 Create -> Put in Resource Group (previously created) -> Enter (Vm) Name "Client-1" -> Select Region (same as before) -> Select Image: Windows 10 Pro Version 22H2 -> *Note* Size: Standard, 2vcpus, 8 gib memory -> Username/Password -> Check "License" -> Next to Disk -> Next to Networking-> Select VNet (previously created) -> Review and Create -> Create
+
+![image](https://github.com/user-attachments/assets/311db171-7a28-4cb6-ad1e-aad2e1057df5)
 
 5. Modify Dc-1 Ip Settings
 
