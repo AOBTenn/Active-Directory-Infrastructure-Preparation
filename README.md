@@ -1,4 +1,4 @@
-# Active-Directory-Infrastructure-Preparation
+# Active Directory Infrastructure Preparation
 
 ![image](https://github.com/user-attachments/assets/e2d78ecf-468d-4d2b-8fc4-d839bf116ed9)
 
