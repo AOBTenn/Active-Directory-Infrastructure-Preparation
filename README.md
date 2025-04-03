@@ -50,7 +50,7 @@ Create -> Put in Resource Group (previously created) -> Enter Vnet Name -> Selec
  <p> 
 </p>
 
-3. Create first Virtual Machine (Vm) Domain Controller
+3. Create First Virtual Machine (Vm) Domain Controller
  <p> 
 </p>
 
